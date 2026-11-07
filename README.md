@@ -8,6 +8,29 @@ Logitech G733 ყურსასმენის ხმის გაუმჯო�
 
 [English](#english) · [ქართული](#ქართული) · [Русский](#русский)
 
+<p align="center">
+  <img src="docs/screenshots/tray-menu.png" alt="Tray menu: presets, active preset ticked, Louder / Quieter" width="320">
+  &nbsp;
+  <img src="docs/screenshots/notification.png" alt="Notification when the preset changes" width="420">
+</p>
+
+<details>
+<summary>More screenshots / სხვა სქრინშოტები / Другие скриншоты</summary>
+
+**Welcome message before installation**
+
+<img src="docs/screenshots/welcome.png" alt="Welcome message" width="520">
+
+**Installer**
+
+<img src="docs/screenshots/installer.png" alt="Installer window" width="800">
+
+**G HUB reminder**
+
+<img src="docs/screenshots/ghub-reminder.png" alt="G HUB reminder" width="520">
+
+</details>
+
 ---
 
 ## English
