@@ -12,7 +12,7 @@
 #      shortcuts, the tray icon, the "Settings > Apps" entry, then restarts Windows audio
 
 $ErrorActionPreference = 'Stop'
-$ToolVersion = '2.1'
+$ToolVersion = '2.2'
 
 $ApoVersion = '1.4.2'
 $ApoFile    = "EqualizerAPO-x64-$ApoVersion.exe"

@@ -89,7 +89,11 @@ $quit.Add_Click({ $ni.Visible = $false; [System.Windows.Forms.Application]::Exit
 
 $ni.ContextMenuStrip = $menu
 $ni.Add_MouseClick({ param($s, $e)
-    if ($e.Button -eq [System.Windows.Forms.MouseButtons]::Left) { $menu.Show([System.Windows.Forms.Cursor]::Position) }
+    # open the menu the same way Windows does for a right-click, so it closes when you click elsewhere
+    if ($e.Button -eq [System.Windows.Forms.MouseButtons]::Left) {
+        $show = [System.Windows.Forms.NotifyIcon].GetMethod('ShowContextMenu', [System.Reflection.BindingFlags]'Instance,NonPublic')
+        if ($show) { $show.Invoke($ni, $null) } else { $menu.Show([System.Windows.Forms.Cursor]::Position) }
+    }
 })
 $ni.Add_BalloonTipClicked({ if ($script:fixOnClick) { $script:fixOnClick = $false; Open-DeviceSelector } })
 
