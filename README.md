@@ -1,6 +1,8 @@
-# G733 SoundFix
+<p align="center">
+  <img src="docs/banner.png" alt="G733 SoundFix: one-click sound fix for the Logitech G733 headset" width="100%">
+</p>
 
-**by Olas GEO** · sound settings by [u/Krast597](https://www.reddit.com/user/Krast597/)
+<p align="center"><b>by Olas GEO</b> · sound settings by <a href="https://www.reddit.com/user/Krast597/">u/Krast597</a> · <a href="https://github.com/Olas-GE/g733-soundfix/releases/latest"><b>Download</b></a></p>
 
 One-click sound fix for the Logitech G733 headset on Windows.
 Logitech G733 ყურსასმენის ხმის გაუმჯობესება Windows-ზე, ერთი დაჭერით.
@@ -8,14 +10,16 @@ Logitech G733 ყურსასმენის ხმის გაუმჯო�
 
 [English](#english) · [ქართული](#ქართული) · [Русский](#русский)
 
-<p align="center">
-  <img src="docs/screenshots/tray-menu.png" alt="Tray menu: presets, active preset ticked, Louder / Quieter" width="320">
-  &nbsp;
-  <img src="docs/screenshots/notification.png" alt="Notification when the preset changes" width="420">
-</p>
-
 <details>
-<summary>More screenshots / სხვა სქრინშოტები / Другие скриншоты</summary>
+<summary>Screenshots / სქრინშოტები / Скриншоты</summary>
+
+**Tray menu**
+
+<img src="docs/screenshots/tray-menu.png" alt="Tray menu: presets, active preset ticked, Louder / Quieter" width="360">
+
+**Notification when the preset changes**
+
+<img src="docs/screenshots/notification.png" alt="Notification" width="420">
 
 **Welcome message before installation**
 
