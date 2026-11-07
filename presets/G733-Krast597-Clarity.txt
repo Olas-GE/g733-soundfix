@@ -1,0 +1,16 @@
+# G733 - Krast597-Clarity: the "{EDIT}" variant from the same r/LogitechG post
+# (u/Krast597: "favors clarity and loudness over bass")
+# https://www.reddit.com/r/LogitechG/comments/10owhnc/guide_to_fixing_sound_on_the_g733/
+#
+# Part 1 - the author's Peace settings ("kz iems tune"), preamp -7.5
+Device: all
+Channel: all
+Preamp: -7.5 dB
+Filter 9: ON PK Fc 2000 Hz Gain 2 dB Q 1.41
+Filter 10: ON HSC Fc 4000 Hz Gain 6 dB Q 0.7
+Filter 11: ON PK Fc 8000 Hz Gain 2 dB Q 1.41
+Filter 12: ON PK Fc 16000 Hz Gain 0.5 dB Q 1.41
+Filter 13: ON PK Fc 20000 Hz Gain 0.5 dB Q 2.99
+#
+# Part 2 - the guide's 15-band graphic EQ (unchanged, stays on in Equalizer APO)
+GraphicEQ: 25 0; 40 6.2; 63 6.2; 100 1; 160 0; 250 0; 400 0; 630 0; 1000 0; 1600 0; 2500 0; 4000 0.7; 6300 1.4; 10000 2.7; 16000 4.1

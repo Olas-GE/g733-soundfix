@@ -1,0 +1,6 @@
+# G733 - Music: a bit more bass body and more air on top
+# Preamp is negative so the boosts never clip.
+Preamp: -6 dB
+Filter: ON LSC Fc 105 Hz Gain 4 dB Q 0.71
+Filter: ON PK Fc 300 Hz Gain -1.5 dB Q 1.0
+Filter: ON HSC Fc 8000 Hz Gain 3 dB Q 0.71

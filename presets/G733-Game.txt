@@ -1,0 +1,5 @@
+# G733 - Game: less bass bleed, clearer footsteps and voices
+Preamp: -4 dB
+Filter: ON PK Fc 250 Hz Gain -2 dB Q 1.0
+Filter: ON PK Fc 2500 Hz Gain 3 dB Q 1.2
+Filter: ON HSC Fc 6000 Hz Gain 2 dB Q 0.71

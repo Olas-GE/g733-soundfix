@@ -1,0 +1,9 @@
+Almost done. One last step:
+
+Logitech G HUB is installed on this PC. Its own equalizer and DTS Headphone:X would stack on top of G733 SoundFix and spoil the sound.
+
+Open G HUB, select the G733 and turn OFF:
+ - the Equalizer (set it to flat / off)
+ - DTS Headphone:X (surround)
+
+Open G HUB now?

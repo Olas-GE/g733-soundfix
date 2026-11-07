@@ -1,0 +1,12 @@
+G733 SoundFix: installation takes about 1 minute.
+
+Nothing to worry about: this tool only sets up a sound equalizer for your G733. Just follow these steps and say yes to everything Windows asks.
+
+1. Windows asks for permission: click "Yes".
+2. A list of devices appears: tick the G733 in the TOP section only ("Playback devices") and click OK. If another window follows, even with red text, just click OK.
+3. In the blue window, type Y and press Enter.
+4. Wait for "Done". That's it!
+
+Then switch presets and volume with the speaker icon next to the clock, or in Start menu > G733 SoundFix.
+
+OK = start installation      Cancel = exit

@@ -1,0 +1,13 @@
+# G733 - Krast597: the settings from the r/LogitechG post
+# "Guide to fixing sound on the G733" by u/Krast597
+# https://www.reddit.com/r/LogitechG/comments/10owhnc/guide_to_fixing_sound_on_the_g733/
+#
+# Part 1 - Peace preset "Bass and High Boost 2", preamp -11, exactly as Peace writes it
+Device: all
+Channel: all
+Preamp: -11 dB
+Filter 5: ON LSC Fc 166 Hz Gain 8 dB Q 0.4
+Filter 10: ON HSC Fc 4000 Hz Gain 7 dB Q 0.7
+#
+# Part 2 - the guide's 15-band graphic EQ (added in Equalizer APO's editor)
+GraphicEQ: 25 0; 40 6.2; 63 6.2; 100 1; 160 0; 250 0; 400 0; 630 0; 1000 0; 1600 0; 2500 0; 4000 0.7; 6300 1.4; 10000 2.7; 16000 4.1
